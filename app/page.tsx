@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 export default function Home() {
-  const [imageUrl, setImageUrl] = useState('')
+  const [imageUrl] = useState('') // ✅ เอา setImageUrl ออก
 
   return (
     <main className="p-4">
