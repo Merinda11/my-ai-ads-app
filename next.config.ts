@@ -1,7 +1,6 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // ลบ `output: "export"` ออกไปเลย
 };
 
-export default nextConfig;
+module.exports = nextConfig;
